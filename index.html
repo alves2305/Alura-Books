@@ -55,29 +55,28 @@
             <h2>Novos lançamentos</h2>
         </div>
         <!-- Slider main container -->
-<div class="swiper">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide"><img src="imagens/Front-end.png" alt="" srcset=""></div>
-      <div class="swiper-slide"><img src="imagens/Gestão.png" alt="" srcset=""></div>
-      <div class="swiper-slide"><img src="imagens/Nodejs.png" alt="" srcset=""></div>
-      <div class="swiper-slide"><img src="imagens/ApacheKafka.png" alt="" srcset=""></div>
-      <div class="swiper-slide"><img src="imagens/Portugol.png" alt="" srcset=""></div>
-      <div class="swiper-slide"><img src="imagens/ReactNative.png" alt="" srcset=""></div>
-      <div class="swiper-slide"><img src="imagens/UX.png" alt="" srcset=""></div>
-      ...
-    </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-  
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-  
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-  </div>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="imagens/Front-end.png" alt="" srcset=""></div>
+                <div class="swiper-slide"><img src="imagens/Gestão.png" alt="" srcset=""></div>
+                <div class="swiper-slide"><img src="imagens/Nodejs.png" alt="" srcset=""></div>
+                <div class="swiper-slide"><img src="imagens/ApacheKafka.png" alt="" srcset=""></div>
+                <div class="swiper-slide"><img src="imagens/Portugol.png" alt="" srcset=""></div>
+                <div class="swiper-slide"><img src="imagens/ReactNative.png" alt="" srcset=""></div>
+                <div class="swiper-slide"><img src="imagens/UX.png" alt="" srcset=""></div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            
+
+            
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
 
 
 
@@ -85,9 +84,13 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>const swiper = new Swiper('.swiper', {
-        spaceBetween: 10,
-        slidesPerView: 3,
-      });</script>
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+        });</script>
 </body>
 
 </html>
