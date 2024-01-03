@@ -5,7 +5,7 @@
     width: 380px;
     height: 295px;
     /* align-items: center; */
-    margin: 24px 24px ;
+    margin-left: 4px;
     border-radius: 10px;
     gap: 17px;
     font-family: var(--fonte-principal);
