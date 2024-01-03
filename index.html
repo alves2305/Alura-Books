@@ -54,6 +54,7 @@
         <div class="carrosel__titulo">
             <h2>Novos lançamentos</h2>
         </div>
+
         <!-- Slider main container -->
         <div class="swiper">
             <!-- Additional required wrapper -->
@@ -70,27 +71,49 @@
                 ...
             </div>
             <!-- If we need pagination -->
-            
 
-            
+
+
 
             <!-- If we need scrollbar -->
             <div class="swiper-scrollbar"></div>
         </div>
 
+    </section>
+
+
+    <section class="cards">
+        <div class="conteudo__cards">
+            <h2 class="titulo__conteudo__cards">Talvez você também se interesse por...</h2>
+            <h2 class="titulo2__conteudo__cards">Angular 11 e Firebase</h2>
+            <p class="paragrafo-cards">Construindo uma aplicação integrada com a plataforma do Google.</p>
+            <div class="favoritos-sacola">
+                <a class="favoritos-1" href="#"><img src="imagens/favoritos[2].svg" alt=""></a>
+                <a class="favoritos2" href="#"><img src="imagens/sacola.svg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="imagem__cards">
+            <img class="img-perfil" src="imagens/Perfil-escritora 2.svg" alt="">
+            <a href="#"><img src="imagens/Button.svg" alt=""></a>
+        </div>
 
 
     </section>
+
+<!-- script-->
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>const swiper = new Swiper('.swiper', {
             spaceBetween: 10,
             slidesPerView: 3,
             pagination: {
-    el: '.swiper-pagination',
-    type: 'bullets',
-  },
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
         });</script>
+<!-- script-->
+
 </body>
 
 </html>
