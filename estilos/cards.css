@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;500&display=swap');
+
 
 .cards {
     display: flex;
@@ -27,9 +27,9 @@
 }
 
 .estilo-titulo1 {
-    font-size:14px ;
+    font-size:16px ;
     font-weight: 600;
-    font-family:'Poppins';
+    font-family:var(--fonte-principal);
     color: var(--laranja);
     line-height: 20px;
 }
@@ -37,7 +37,7 @@
     line-height: 20px;
     font-size:16px ;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--fonte-principal);
     color: var(--azul);    
 }
 .estilo-paragrafo {
@@ -62,7 +62,7 @@
     margin-top: 47px;
     text-decoration: none;
     text-align: center;
-    font-family: 'Poopins', sans-serif;
+    font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 600;
     color: var(--branco);
