@@ -53,13 +53,17 @@
     <section class="carrosel">
         <div class="carrosel__titulo">
             <h2>Novos lançamentos</h2>
+
         </div>
+
 
         <!-- Slider main container -->
         <div class="swiper">
             <!-- Additional required wrapper -->
             <div class="swiper-pagination"></div>
+
             <div class="swiper-wrapper">
+
                 <!-- Slides -->
                 <div class="swiper-slide"><img src="imagens/Front-end.png" alt="" srcset=""></div>
                 <div class="swiper-slide"><img src="imagens/Gestão.png" alt="" srcset=""></div>
@@ -70,38 +74,50 @@
                 <div class="swiper-slide"><img src="imagens/UX.png" alt="" srcset=""></div>
                 ...
             </div>
-            <!-- If we need pagination -->
 
 
 
 
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
+
+
         </div>
 
     </section>
-
 
     <section class="cards">
-        <div class="conteudo__cards">
-            <h2 class="titulo__conteudo__cards">Talvez você também se interesse por...</h2>
-            <h2 class="titulo2__conteudo__cards">Angular 11 e Firebase</h2>
-            <p class="paragrafo-cards">Construindo uma aplicação integrada com a plataforma do Google.</p>
-            <div class="favoritos-sacola">
-                <a class="favoritos-1" href="#"><img src="imagens/favoritos[2].svg" alt=""></a>
-                <a class="favoritos2" href="#"><img src="imagens/sacola.svg" alt=""></a>
+
+        <div class="cards-conteudos">
+
+            <div class="titulos__cards">
+                <div class="posisionamento__titulos">
+                    <h2 class="estilo-titulo1">
+                        Talvez você também se interesse por...
+                    </h2>
+                    <h2 class="estilo-titulo2">
+                        Angular 11 e Firebase
+                    </h2>
+                    <p class="estilo-paragrafo">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    <div class="favoritos-compras">
+                        <a class="ancora-fav" href="#"><img src="imagens/favoritos[2].svg" alt=""></a>
+                        <a href="#"><img src="imagens/Compras.svg" alt=""></a>
+                    </div>
+                </div>
             </div>
+            <div class="imagem__cards">
+                <img src="imagens/Perfil-escritora 2.svg" alt="">
+
+                <a class="botao__cards" href="#">Saiba mais</a>
+            </div>
+
         </div>
 
-        <div class="imagem__cards">
-            <img class="img-perfil" src="imagens/Perfil-escritora 2.svg" alt="">
-            <a href="#"><img src="imagens/Button.svg" alt=""></a>
-        </div>
+    </section>
+
 
 
     </section>
 
-<!-- script-->
+    <!-- script-->
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>const swiper = new Swiper('.swiper', {
@@ -112,7 +128,7 @@
                 type: 'bullets',
             },
         });</script>
-<!-- script-->
+    <!-- script-->
 
 </body>
 
